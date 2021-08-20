@@ -2,8 +2,8 @@ package com.example.demo.test;
 
 import com.example.demo.comm.tools.JsonResult;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ProjectName: demo
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Date: 2021/8/19 16:06
  * @Version: 1.0
  */
-@Controller
+@RestController
 @RequestMapping("/test")
 @Slf4j
 public class test {
