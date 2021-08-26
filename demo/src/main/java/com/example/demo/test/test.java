@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class test {
     @RequestMapping("/demo")
-    public JsonResult demo(){
+    public JsonResult demo() {
         return JsonResult.getSuccessResponse("成功").setData("nb");
     }
 
